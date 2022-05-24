@@ -13,6 +13,42 @@
   }
 }
 
+.cardlist{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.searchbox{
+  width: 400px;
+  height: 25px;
+  margin-top: 50px;
+  border-radius: 50px;
+  background: transparent;
+  border-radius: 1px solid grey;
+  padding-left: 15px;
+}
+
+.btn{
+  width: 80px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 50px;
+  margin-top: 50px;
+  background: rgb(59, 122, 211);
+  border: none;
+  color: #fff;
+}
+
+.btn:hover{
+  background: green;
+  cursor: pointer;
+}
+
+.card{
+  border: 2px solid gray;
+  margin: 10px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +72,4 @@
     transform: rotate(360deg);
   }
 }
+
